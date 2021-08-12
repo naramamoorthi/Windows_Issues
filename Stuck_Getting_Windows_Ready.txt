@@ -1,0 +1,3 @@
+Issue: Windows gets stuck at "Getting Windows Ready" during shutdown. Windows Installer Worker will keep running, using about 30-50% CPU.
+
+Solution: DISM.exe /Online /Cleanup-image /Restorehealth
