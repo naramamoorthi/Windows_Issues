@@ -1,0 +1,4 @@
+Issue: Mapped drives are missing on the client device. 
+Solution: Go to this key and delete anything with ## before the name.
+
+HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2
